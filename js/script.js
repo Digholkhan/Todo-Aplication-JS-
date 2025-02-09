@@ -11,7 +11,7 @@ function  addTask() {
         li.innerHTML = taskInput.value;
         taskList.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "&#10006";
+        span.innerHTML = "&#10005";
         li.appendChild(span)
       
     }
