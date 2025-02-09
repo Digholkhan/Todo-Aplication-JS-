@@ -21,16 +21,13 @@ h1 {
     text-align: center;
     font-weight: bold;
 }
-#task-input:hover{
-    transform: scale(1.5);
-}
+
 /* Input Section */
 .input-area {
     display: flex;
     background-color: #ffffff;
     border-radius: 30px;
 }
-
 .input-area input {
     flex: 1;
     padding: 20px;
@@ -38,7 +35,6 @@ h1 {
     outline: none;
     border-radius: 30px;
 }
-
 .input-area button {
     background: #120c0c;
     color: white;
@@ -48,19 +44,15 @@ h1 {
     cursor: pointer;
     font-weight: bold;
 }
-
 .input-area button:hover {
     background: #000000;
 }
-
 /* Task List */
 ul {
     list-style: none;
     padding: 0;
     margin-top: 15px;
-    
 }
-
 ul li {
     display: flex;
     align-items: center;
@@ -86,7 +78,6 @@ ul li::before {
 ul li.checked{
     color: #555;
     text-decoration: line-through;
-
 }
 ul li.checked::after{
     content: "✅";
@@ -96,18 +87,13 @@ ul li.checked::after{
     height: 20px;
     width: 20px;
     border-radius: 5px;
-   
 }
-
-
 ul li span{
     position: absolute;
     top: 8px;
     right: 2px;
-    font-size: 20px;
-   
+    font-size: 20px;  
 }
 ul li span:hover{
    color: red;
-
 }
